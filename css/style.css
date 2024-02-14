@@ -1,0 +1,48 @@
+body{
+    background-image: url('../img/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-orange{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    background: linear-gradient(285.83deg, #FFEE5B -0.1%, #F57B10 91.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-yellow {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    background: linear-gradient(285.83deg, #f9ef7f -0.1%, #ffffff 91.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+    /* Gaya khusus untuk input dengan latar belakang hijau */
+    .bg-green input[type="name"] {
+        background-color: #C4F5ED; 
+    }
+
+
+
+/* Button Style */
+.button{
+    background-color: #C4F5ED;
+}
+.bg-green{
+    background-color: #C4F5ED;
+}
+.btn-orange{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    background: linear-gradient(10deg, #F57B10, #FFEE5B);
+}
+
