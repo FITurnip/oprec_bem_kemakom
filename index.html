@@ -32,11 +32,11 @@
                 <h1 class="fw-bolder text-white header-orange">Pengumuman Kelulusan</h1>
                 <h2 class="text-white fw-bold">Calon Pengurus</h2>
                 <p class="text-white fw-bold header-yellow">BEM KEMAKOM FPMIPA UPI 2024</p>
-                <p class="fw-2 fs-5 text-white">Yuk Cek Pengumuman Kelulusan dengan Memasukkan
-                    <strong>NIM</strong> Kamu di bawah ini!
+                <p class="fw-2 fs-5 text-white">Yuk cek pengumuman kelulusan dengan memasukkan
+                    <strong>NIM</strong> kamu di bawah ini!
                 </p>
                 <!-- Form Pengecekkan -->
-                <form id="submissionForm" method="post">
+                <form id="submissionForm">
                     <!-- Input NIM -->
                     <div class="d-grid col-md-8 mx-auto mb-3 bg-green rounded-1">
                         <input type="nim" class="form-control border-0" id="nim" name="nim"
@@ -46,7 +46,7 @@
                     <div class="d-grid col-md-8 mx-auto">
                         <button type="button" class="btn btn-primary btn-orange border-0 rounded-1"
                             data-bs-toggle="modal" data-bs-target="#myModal" id="submissionFormButton">Cek
-                            Disini!</button>
+                            Di sini!</button>
                     </div>
                 </form>
             </div>
@@ -61,7 +61,9 @@
                     <p class="modal-title mx-auto" id="identitas"></p>
                 </div>
                 <div class="modal-body">
-                    <p id="pesan-no-nim"></p>
+                    <p id="pesan-no-nim">
+                        <img src="./img/Group 935.png" width="130"/>
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <p id="motivasi"></p>
@@ -80,12 +82,7 @@
 
     <!-- JAVASCRIPT -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/script.js">
-
-    </script>
-
-
-
+    <script src="js/script.js"> </script>
 </body>
 
 </html>
