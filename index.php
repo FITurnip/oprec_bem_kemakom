@@ -16,7 +16,6 @@
 
 <body>
 
-    <!-- <div class="container"> -->
     <!-- Section Navigasi Hastag -->
     <nav class="navbar">
         <div class="container d-flex justify-content-center">

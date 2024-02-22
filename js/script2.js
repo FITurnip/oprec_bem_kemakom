@@ -73,10 +73,10 @@ $(document).ready(function () {
                             }
                         });
 
-                        // // Memuat ulang halaman saat modal ditutup
-                        // $('#myModal').on('hidden.bs.modal', function () {
-                        //     location.reload();
-                        // });
+                        // Memuat ulang halaman saat modal ditutup
+                        $('#myModal').on('hidden.bs.modal', function () {
+                            location.reload();
+                        });
                     } else {
                         // Pesan Gagal
                         $(".modal-header").html(`<p class="mx-auto">Maaf <strong>NIM Tidak Ditemukan</strong>!</p>`);

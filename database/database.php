@@ -46,7 +46,6 @@ function getUcapanMotivasi($kelolosan) {
     return $result;
 }
 
-<<<<<<< HEAD
 // hastag sinariaksi salah 
 // tombol close reload terus v
 // javascriptnya belum ngehandle kalau datanya g ada v
@@ -54,14 +53,4 @@ function getUcapanMotivasi($kelolosan) {
 // ini urang ubah phpnya buat ngehindari sql injection. takutnya ada yang ngebobol database kemakom v
 // background belum responsive sesuai kesepakatan awal v 
 // prevent enter when input nim  v
-=======
-// hastag sinariaksi salah
-// tombol close reload terus
-// javascriptnya belum ngehandle kalau datanya g ada
-// jangan pas klik close malah reload bang
-// ini urang ubah phpnya buat ngehindari sql injection. takutnya ada yang ngebobol database kemakom
-// background belum responsive sesuai kesepakatan awal
-// prevent enter when input nim
->>>>>>> c1fc836e7425feaecdc85f85d1e9f819ac63350d
-// gambar di tengah modal, ganti
-?>
+
